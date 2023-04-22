@@ -1,4 +1,5 @@
 import React from 'react'
+import Steps from './Steps'
 
 const Content = () => {
     return (
@@ -20,6 +21,7 @@ const Content = () => {
                     <h1 className='text-3xl font-bold tracking-wide bg-gradient-to-r from-blue-300 p-2 max-w-4xl rounded-lg to-white'>Setup</h1>
                     <p className='text-lg'>There won't be any changes in these steps to setup tailwindcss for the most part, but based on the framework you want to use tailwind for, there will be very slight changes. <a href='https://tailwindcss.com/docs/installation/framework-guides' target="_blank" className=' hover:underline text-blue-500 transition'>Click here to know the ways of adding tailwind to different frameworks</a></p>
                     <p className='text-lg'>I am telling the setup of tailwind, for websites made using create-react-app here </p>
+                    <Steps />
                 </div>
             </div>
         </>
