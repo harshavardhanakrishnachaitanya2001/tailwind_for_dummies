@@ -1,11 +1,10 @@
 import React from 'react'
 
-const Steps = () => {
+const Steps = ({style}) => {
   return (
-    <ol >
-      <li><span className='font-bold'>Step 1</span> Install tailwindcss as a dev dependency</li>
-      <li><span className='font-bold'>Step 2</span> Initialize the tailwind.config.js file</li>
-      
+    <ol className='list-decimal ' {style} >
+      <li> Install tailwindcss as a dev dependency</li>
+      <li> Initialize the tailwind.config.js file</li>
     </ol>
   )
 }
